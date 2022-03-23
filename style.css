@@ -96,6 +96,7 @@ header {
 .verse {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     padding: 1rem 1rem;
     background-color: #ffffff;
     margin: 0.5rem;
@@ -105,15 +106,14 @@ header {
 
 .verse-number {
     text-align: center;
-    padding: 0.1rem 0.4rem;
     background-color: #17a187;
     border-radius: 0.4rem;
-    margin-right: 1rem;
     color: #ffffff;
-    min-width: 0.5rem;
+    width: 2rem;
+    padding: 0.1rem 0.3rem;
 }
 .verse-text {
-    flex-grow: 1;
+    width: 90%;
 }
 .verse-text .verse-text-arabic {
     text-align: right;
