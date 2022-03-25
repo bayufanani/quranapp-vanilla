@@ -55,8 +55,8 @@ async function loadVerse(chapter, numberOfAyahs) {
     let verses = await makeRequest("GET", "https://api.quran.com/api/v4/verses/by_chapter/" + chapter + "?language=en&words=false&translations=quran.id&fields=text_indopak&per_page=" + numberOfAyahs);
     verses = verses.verses;
     let innerHTML = "";
-    for (let i = 0; i < verses.length; i++) {
-        let verse = verses[i];
+    for (const i of verses) {
+        let verse = i;
         innerHTML += `
         <div class="verse">
             <div class="verse-number">
