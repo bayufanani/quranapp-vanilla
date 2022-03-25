@@ -23,6 +23,7 @@ function makeRequest(method, url) {
 }
 
 async function startApp() {
+    // TODO appp
     let parent = document.getElementById("chapters");
     let chapters = await makeRequest("GET", "https://api.quran.com/api/v4/chapters?language=id");
     chapters = chapters.chapters;
