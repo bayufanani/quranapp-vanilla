@@ -13,3 +13,6 @@ TODO:
     -   mp3 \*\*
     -   tafsir \*\*
     -   last read \*\*
+    -   warna tajwid
+-   optimalkan untuk mobile
+-   bundle pwa dan publish ke playstore (kalau ada uang)
